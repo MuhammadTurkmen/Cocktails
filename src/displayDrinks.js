@@ -5,6 +5,8 @@ const displayDrinks = ({drinks}) => {
     const title = get('.title')
     if(!drinks) {
         title.textContent = `sorry, no drinks matched your search`
+        section.innerHTML = null
+        
     }
 }
 
