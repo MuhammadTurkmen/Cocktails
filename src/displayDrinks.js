@@ -9,6 +9,9 @@ const displayDrinks = ({drinks}) => {
         section.innerHTML = null
         return
     }
+    const newDrinks = drinks.map((drink) => {
+
+    })
 }
 
 export default displayDrinks
