@@ -7,5 +7,5 @@ const form = get('.search-form')
 const input = get('[name="drink"]')
 
 form.addEventListener('keyup', function(e)  {
-    
+    e.preventDefault()
 })
