@@ -22,6 +22,7 @@ const displayDrinks = ({drinks}) => {
                 </a>`
     }).join('')
     // hide loading
+    hideLoading()
     title.textContent = ''
     section.innerHTML = newDrinks
     return section
