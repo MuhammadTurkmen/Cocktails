@@ -7,7 +7,7 @@ const displayDrinks = ({drinks}) => {
         // hide loading
         title.textContent = `sorry, no drinks matched your search`
         section.innerHTML = null
-        
+        return
     }
 }
 
