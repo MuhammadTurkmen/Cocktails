@@ -9,5 +9,6 @@ const input = get('[name="drink"]')
 form.addEventListener('keyup', function(e)  {
     e.preventDefault()
     const value = input.value
-    if(!value)
+    if(!value) return
+    presentDrinks(`${baseURL}${value}`)
 })
