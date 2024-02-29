@@ -14,7 +14,7 @@ const displayDrinks = ({drinks}) => {
         return `<a href="drink.html">
                     <article class="cocktail" data-id="${id}">
                     <img src="${image}" alt="${name}">
-                    <h3>martini</h3>
+                    <h3>${name}</h3>
                     </article>
                 </a>`
     }).join('')
