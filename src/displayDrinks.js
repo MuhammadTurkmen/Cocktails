@@ -17,6 +17,7 @@ const displayDrinks = ({drinks}) => {
                     </article>
                 </a>`
     }).join('')
+    // hide loading
 }
 
 export default displayDrinks
