@@ -1,7 +1,12 @@
 
 
 const fetchDrinks = async (url) => {
-    return 1
+    try {
+        const response = await fetch(url) 
+        const data = await response.json()
+    } catch (error) {
+        
+    }
 }
 
 export default fetchDrinks
