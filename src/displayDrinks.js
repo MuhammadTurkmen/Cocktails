@@ -19,6 +19,7 @@ const displayDrinks = ({drinks}) => {
     }).join('')
     // hide loading
     title.textContent = ''
+    section.innerHTML = newDrinks
 }
 
 export default displayDrinks
