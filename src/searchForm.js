@@ -8,4 +8,5 @@ const input = get('[name="drink"]')
 
 form.addEventListener('keyup', function(e)  {
     e.preventDefault()
+    console.log(input.value);
 })
