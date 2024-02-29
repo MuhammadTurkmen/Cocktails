@@ -10,7 +10,7 @@ const displayDrinks = ({drinks}) => {
         return
     }
     const newDrinks = drinks.map((drink) => {
-        return `a href="drink.html">
+        return `<a href="drink.html">
                     <article class="cocktail" data-id="1">
                     <img src="./cocktail.jpg" alt="cocktail">
                     <h3>martini</h3>
