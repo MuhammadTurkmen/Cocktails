@@ -1,7 +1,8 @@
 import get from './getElement.js'
 
 const displayDrinks = ({drinks}) => {
-    return 'hello world'
+    const section = get('.section-center')
+    const title = get('.title')
 }
 
 export default displayDrinks
