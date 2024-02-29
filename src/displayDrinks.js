@@ -7,6 +7,7 @@ const displayDrinks = ({drinks}) => {
     const title = get('.title')
     if(!drinks) {
         // hide loading
+        hideLoading()
         title.textContent = `sorry, no drinks matched your search`
         section.innerHTML = null
         return
