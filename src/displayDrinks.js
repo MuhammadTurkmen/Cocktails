@@ -18,6 +18,7 @@ const displayDrinks = ({drinks}) => {
                 </a>`
     }).join('')
     // hide loading
+    title.textContent = ''
 }
 
 export default displayDrinks
