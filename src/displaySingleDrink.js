@@ -8,4 +8,4 @@ const displayDrink = (data) => {
  
 }   
  
-export default displayDrink 
+export default displayDrink  
