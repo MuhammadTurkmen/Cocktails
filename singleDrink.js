@@ -4,3 +4,5 @@ import displayDrink from './src/displaySingleDrink.js'
 const presentDrink = async () => {
 
 }
+
+window.addEventListener('DOMContentLoaded', presentDrink)
