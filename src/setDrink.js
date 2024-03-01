@@ -1,3 +1,3 @@
-const setDrink = () => {
-    
+const setDrink = (section) => {
+
 }
