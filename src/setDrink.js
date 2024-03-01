@@ -3,7 +3,7 @@ const setDrink = (section) => {
         // e.preventDefault()
         const id = e.target.parentElement.dataset.id
         
-        // JSON
+        // JSON.stringify JSON.parse
         localStorage.setItem('drink', id)
     })
 }
