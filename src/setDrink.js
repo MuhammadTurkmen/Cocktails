@@ -1,5 +1,7 @@
 const setDrink = (section) => {
-    console.log(section);
+    section.addEventListener('click', function(e) {
+        
+    })
 }
 
 export default setDrink
