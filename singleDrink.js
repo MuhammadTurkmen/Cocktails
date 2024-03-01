@@ -6,8 +6,10 @@ const presentDrink = async () => {
     if(!id) {
         window.location.replace('index.html')
     }
-    const drink = await fetchDrinks(`https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=${id}`)
-    displayDrink(drink)
+    else {
+        const drink = await fetchDrinks(`https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=${id}`)
+        displayDrink(drink)
+    }
 }
 
 window.addEventListener('DOMContentLoaded', presentDrink)
