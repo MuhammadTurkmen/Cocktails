@@ -7,5 +7,5 @@ const displayDrink = (data) => {
     const {strDrinkThumb: image, strDrink: name, strInstructions: desc} = drink
  
 } 
-
+ 
 export default displayDrink
