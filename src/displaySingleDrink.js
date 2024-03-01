@@ -6,6 +6,6 @@ const displayDrink = (data) => {
     const drink = data.drinks[0]
     const {strDrinkThumb: image, strDrink: name, strInstructions: desc} = drink
  
-} 
+}  
  
 export default displayDrink 
