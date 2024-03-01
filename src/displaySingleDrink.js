@@ -1,6 +1,6 @@
 import { hideLoading } from "./toggleLoading.js"
 import get from "./getElement.js"
-const displayDrink = () => {
+const displayDrink = (data) => {
     hideLoading()
 }
 
