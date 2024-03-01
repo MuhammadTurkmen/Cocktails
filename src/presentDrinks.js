@@ -8,7 +8,7 @@ const showDrinks = async (url) => {
     // display drinks
     const section = await displayDrinks(data)
     if(section) {
-        
+        setDrink(section)
     }
 }
 
