@@ -1,1 +1,1 @@
-import fetchDrinks from './src/fetchDrinks'
+import fetchDrinks from './src/fetchDrinks.js'
