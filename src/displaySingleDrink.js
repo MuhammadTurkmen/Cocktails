@@ -4,7 +4,7 @@ const displayDrink = (data) => {
     hideLoading()
 
     const drink = data.drinks[0]
-    const {strDrinkThumb: image, }
+    const {strDrinkThumb: image, strDrink: name} =
 
 }
 
