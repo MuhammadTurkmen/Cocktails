@@ -12,6 +12,7 @@ const displayDrink = (data) => {
         drink.strIngredient4,
         drink.strIngredient5,
     ]
+    const img = get('.drink-img')
 }   
   
 export default displayDrink     
