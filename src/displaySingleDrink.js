@@ -23,7 +23,7 @@ const displayDrink = (data) => {
     ingredients.innerHTML = list.map((item) => {
         if(!item) return
         return `<li>${item}</li>`
-    }) 
+    }).join('')
 }   
   
 export default displayDrink     
