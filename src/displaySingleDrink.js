@@ -19,7 +19,7 @@ const displayDrink = (data) => {
     img.src = image
     drinkName.textContent = name
     description.textContent = desc
-    document.title = name 
+    document.title = name  
     ingredients.innerHTML = list.map((item) => {
         if(!item) return
         return `<li><i class='far fa-check-square'></i>${item}</li>`
