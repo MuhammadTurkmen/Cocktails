@@ -13,8 +13,8 @@ const displayDrink = (data) => {
         drink.strIngredient5,
     ]
     const img = get('.drink-img')
-    const DrinkName = get('.drink-img')
-    const description = get('.drink-img')
+    const DrinkName = get('.drink-name')
+    const description = get('.drink-desc')
     const ingredients = get('.drink-img')
 }   
   
