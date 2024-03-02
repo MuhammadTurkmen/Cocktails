@@ -20,8 +20,8 @@ const displayDrink = (data) => {
     drinkName.textContent = name
     description.textContent = desc
     document.title = name 
-    ingredients.innerHTML = list.map(() => {
-        
+    ingredients.innerHTML = list.map((item) => {
+
     }) 
 }   
   
