@@ -16,7 +16,7 @@ const displayDrink = (data) => {
     const DrinkName = get('.drink-name')
     const description = get('.drink-desc')
     const ingredients = get('.drink-ingredients')
-    image.src =img
+    img.src = image
 }   
   
 export default displayDrink     
