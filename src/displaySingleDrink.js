@@ -18,6 +18,7 @@ const displayDrink = (data) => {
     const ingredients = get('.drink-ingredients')
     img.src = image
     drinkName.textContent = name
+    description.textContent = desc
     document.title = name 
 }   
   
