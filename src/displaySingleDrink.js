@@ -13,10 +13,11 @@ const displayDrink = (data) => {
         drink.strIngredient5,
     ]
     const img = get('.drink-img')
-    const DrinkName = get('.drink-name')
+    const drinkName = get('.drink-name')
     const description = get('.drink-desc')
     const ingredients = get('.drink-ingredients')
     img.src = image
+    drinkName
     document.title = name 
 }   
   
