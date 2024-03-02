@@ -22,7 +22,7 @@ const displayDrink = (data) => {
     document.title = name  
     ingredients.innerHTML = list.map((item) => {
         if(!item) return
-        return `<li><i class='far fa-check-square'></i>${item}</li>`
+        return `<li><i class='far fa-check-square'></i>${item}</li>` 
     }).join('')
 }   
   
