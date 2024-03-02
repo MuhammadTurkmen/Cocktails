@@ -21,7 +21,7 @@ const displayDrink = (data) => {
     description.textContent = desc
     document.title = name 
     ingredients.innerHTML = list.map((item) => {
-
+        if(!item) return
     }) 
 }   
   
